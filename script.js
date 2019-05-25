@@ -96,4 +96,12 @@ ul.insertBefore(li, item1)
 
 console.log(li)
 
+let nuevo_ul = document.createElement("ul")
+for(let i=0; i<5 ; i++){
+    let primer_li = document.createElement("li")
+    nuevo_ul.appendChild(primer_li)
+}
+
+console.log(primer_li)
+
    
